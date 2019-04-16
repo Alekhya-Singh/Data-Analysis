@@ -1,0 +1,16 @@
+Created By:
+Alekhya
+StudentId: 18210618
+email: alekhya.singh7@mail.dcu.ie
+-------------------------------------------
+
+Create database pigdb;
+
+Create table pigtable (Id int, PostTypeId int, Score int, ViewCount int, OwnerUserId int, Body string, OwnerDisplayName string, Title string);
+
+SELECT id,score,title FROM pigtable SORT BY score desc limit 10;
+
+SELECT Score, OwnerUserId, OwnerDisplayName  FROM pigtable SORT BY Score DESC LIMIT 10;
+
+SELECT Count(DISTINCT(OwnerUserId)) FROM pigtable WHERE (Body REGEXP 'hadoop') OR (Title REGEXP 'hadoop');
+
