@@ -1,4 +1,4 @@
-# Data-Analysis-using-Pig-and-Hive
+# Data-Analysis (using pig and hive) 
 
 The objective is to work on a large amount of data, with the BigData technologies (MapReduce, Hive and Pig)
 
