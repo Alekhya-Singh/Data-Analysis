@@ -1,7 +1,9 @@
 # Data-Analysis (using pig and hive) 
 
-The objective is to work on a large amount of data, with the BigData technologies (MapReduce, Hive and Pig)
+The objective is to work on a large amount of data, with the BigData technologies (MapReduce, Hive and Pig).
+
 Implemented EMR cluster to run Hadoop on AWS and migrated data from raw file to Hive table.
+
 Tasks :
 
         1. Acquire the top 200,000 posts by viewcount.
