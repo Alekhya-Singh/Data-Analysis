@@ -1,4 +1,4 @@
-# Data-Analysis (using pig and hive) 
+## Data-Analysis (using pig and hive on Google Cloud Platform) 
 
 The objective is to work on a large amount of data, with the BigData technologies (Hadoop, Hive and Pig).
 
@@ -27,7 +27,7 @@ The database is available here: http://data.stackexchange.com/stackoverflow/quer
 
     • Similarly, run the above query 4 times by using the join method and a range of 50K posts each to collect 200000 posts. On StackExchange, we can only dump 50K posts.
 
-## Using pig to extract, transform and load the data
+### Using pig to extract, transform and load the data
 
 First, start with creating a cluster in Data Proc:
 
@@ -82,7 +82,7 @@ Now to export the dumped data in a readable format for Hive is our second step a
         
   ![image](https://user-images.githubusercontent.com/43326618/61000948-73649f80-a356-11e9-8ba1-53b8c97bd9af.png)
 
-## Using hive to find top 10 posts by the score, top 10 users by post score and the number of distinct users, who used the word Hadoop in one of their posts applicable
+### Using hive to find top 10 posts by the score, top 10 users by post score and the number of distinct users, who used the word Hadoop in one of their posts applicable
 
    Created a database schema and tables. Using HCatalog, stored pig results in tables created in Hive.
    
