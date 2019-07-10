@@ -1,8 +1,3 @@
-Created By:
-Alekhya
-StudentId: 18210618
-email: alekhya.singh7@mail.dcu.ie
--------------------------------------------
 
 REGISTER piggybank.jar;
 
