@@ -82,7 +82,7 @@ Now to export the dumped data in a readable format for Hive is our second step a
         
   ![image](https://user-images.githubusercontent.com/43326618/61000948-73649f80-a356-11e9-8ba1-53b8c97bd9af.png)
 
-## Using hive to to find top 10 posts by the score, top 10 users by post score and the number of distinct users, who used the word Hadoop in one of their posts applicable
+## Using hive to find top 10 posts by the score, top 10 users by post score and the number of distinct users, who used the word Hadoop in one of their posts applicable
 
    Created a database schema and tables. Using HCatalog, stored pig results in tables created in Hive.
    
@@ -98,6 +98,6 @@ Now to export the dumped data in a readable format for Hive is our second step a
         
    Finally run the hive queries mentioned in hive.txt file
    
- ## Used python script for calculating the TF-IDF per user.
+ ### Used python script for calculating the TF-IDF per user.
 
 
